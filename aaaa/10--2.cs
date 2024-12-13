@@ -4,12 +4,12 @@ class Program
 {
     static void Main()
     {
-        Console.Write("10-lik sonni kiriting: ");
+        Console.Write("10-lik: ");
         int decimalNumber = int.Parse(Console.ReadLine());
 
         string binaryNumber = Convert.ToString(decimalNumber, 2);
 
-        Console.WriteLine("2-lik sanoq sistemasidagi qiymat: " + binaryNumber);
+        Console.WriteLine("2-lik: " + binaryNumber);
     }
 }
 
